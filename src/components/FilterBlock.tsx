@@ -13,7 +13,12 @@ export default function FilterBlock({ filters, setFilters }: FilterProps) {
       <select
         className="bg-gray-800 text-white p-2 rounded"
         value={filters.category}
-        onChange={(e) => setFilters((prev) => ({ ...prev, category: e.target.value }))}
+        onChange={(e) =>
+          setFilters((prev: FilterProps["filters"]) => ({
+            ...prev,
+            category: e.target.value
+          }))
+        }
       >
         <option value="">All Categories</option>
         <option value="Singer">Singer</option>
@@ -27,13 +32,23 @@ export default function FilterBlock({ filters, setFilters }: FilterProps) {
         className="bg-gray-800 text-white p-2 rounded"
         placeholder="Location"
         value={filters.location}
-        onChange={(e) => setFilters((prev) => ({ ...prev, location: e.target.value }))}
+        onChange={(e) =>
+          setFilters((prev: FilterProps["filters"]) => ({
+            ...prev,
+            location: e.target.value
+          }))
+        }
       />
 
       <select
         className="bg-gray-800 text-white p-2 rounded"
         value={filters.price}
-        onChange={(e) => setFilters((prev) => ({ ...prev, price: e.target.value }))}
+        onChange={(e) =>
+          setFilters((prev: FilterProps["filters"]) => ({
+            ...prev,
+            price: e.target.value
+          }))
+        }
       >
         <option value="">All Price Ranges</option>
         <option value="₹5k - ₹15k">₹5k - ₹15k</option>
