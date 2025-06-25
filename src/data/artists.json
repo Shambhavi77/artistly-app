@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Aria Singh",
+    "category": "Singer",
+    "priceRange": "₹10k - ₹25k",
+    "location": "Mumbai"
+  },
+  {
+    "name": "Rahul Verma",
+    "category": "DJ",
+    "priceRange": "₹25k - ₹50k",
+    "location": "Delhi"
+  },
+  {
+    "name": "Leena Shah",
+    "category": "Dancer",
+    "priceRange": "₹10k - ₹25k",
+    "location": "Bangalore"
+  },
+  {
+    "name": "Sahil Mehta",
+    "category": "Speaker",
+    "priceRange": "₹5k - ₹15k",
+    "location": "Pune"
+  },
+  {
+    "name": "Nisha Kapoor",
+    "category": "Singer",
+    "priceRange": "₹25k - ₹50k",
+    "location": "Chennai"
+  },
+  {
+    "name": "Aman Bhatt",
+    "category": "DJ",
+    "priceRange": "₹10k - ₹25k",
+    "location": "Kolkata"
+  },
+  {
+    "name": "Riya Desai",
+    "category": "Dancer",
+    "priceRange": "₹5k - ₹15k",
+    "location": "Hyderabad"
+  },
+  {
+    "name": "Deepak Rane",
+    "category": "Speaker",
+    "priceRange": "₹15k - ₹30k",
+    "location": "Ahmedabad"
+  },
+  {
+    "name": "Zara Ali",
+    "category": "Singer",
+    "priceRange": "₹25k - ₹50k",
+    "location": "Jaipur"
+  },
+  {
+    "name": "Kabir Khan",
+    "category": "DJ",
+    "priceRange": "₹15k - ₹30k",
+    "location": "Goa"
+  },
+  {
+    "name": "Meera Joshi",
+    "category": "Dancer",
+    "priceRange": "₹10k - ₹25k",
+    "location": "Lucknow"
+  },
+  {
+    "name": "Ravi Solanki",
+    "category": "Speaker",
+    "priceRange": "₹5k - ₹15k",
+    "location": "Bhopal"
+  },
+  {
+    "name": "Simran Kaur",
+    "category": "Singer",
+    "priceRange": "₹10k - ₹25k",
+    "location": "Nagpur"
+  },
+  {
+    "name": "Tushar Malik",
+    "category": "DJ",
+    "priceRange": "₹25k - ₹50k",
+    "location": "Indore"
+  },
+  {
+    "name": "Anjali Nair",
+    "category": "Dancer",
+    "priceRange": "₹15k - ₹30k",
+    "location": "Kochi"
+  },
+  {
+    "name": "Manish Yadav",
+    "category": "Speaker",
+    "priceRange": "₹10k - ₹25k",
+    "location": "Surat"
+  },
+  {
+    "name": "Sneha Rao",
+    "category": "Singer",
+    "priceRange": "₹5k - ₹15k",
+    "location": "Vishakhapatnam"
+  },
+  {
+    "name": "Akshay Thakur",
+    "category": "DJ",
+    "priceRange": "₹15k - ₹30k",
+    "location": "Nashik"
+  },
+  {
+    "name": "Tanvi Jain",
+    "category": "Dancer",
+    "priceRange": "₹25k - ₹50k",
+    "location": "Rajkot"
+  },
+  {
+    "name": "Kunal Patel",
+    "category": "Speaker",
+    "priceRange": "₹5k - ₹15k",
+    "location": "Vadodara"
+  }
+]
