@@ -1,10 +1,12 @@
+type Filters = {
+  category: string;
+  location: string;
+  price: string;
+};
+
 interface FilterProps {
-  filters: {
-    category: string;
-    location: string;
-    price: string;
-  };
-  setFilters: React.Dispatch<React.SetStateAction<any>>;
+  filters: Filters;
+  setFilters: React.Dispatch<React.SetStateAction<Filters>>;
 }
 
 export default function FilterBlock({ filters, setFilters }: FilterProps) {
@@ -14,7 +16,7 @@ export default function FilterBlock({ filters, setFilters }: FilterProps) {
         className="bg-gray-800 text-white p-2 rounded"
         value={filters.category}
         onChange={(e) =>
-          setFilters((prev: FilterProps["filters"]) => ({
+          setFilters((prev: Filters) => ({
             ...prev,
             category: e.target.value
           }))
@@ -33,7 +35,7 @@ export default function FilterBlock({ filters, setFilters }: FilterProps) {
         placeholder="Location"
         value={filters.location}
         onChange={(e) =>
-          setFilters((prev: FilterProps["filters"]) => ({
+          setFilters((prev: Filters) => ({
             ...prev,
             location: e.target.value
           }))
@@ -44,7 +46,7 @@ export default function FilterBlock({ filters, setFilters }: FilterProps) {
         className="bg-gray-800 text-white p-2 rounded"
         value={filters.price}
         onChange={(e) =>
-          setFilters((prev: FilterProps["filters"]) => ({
+          setFilters((prev: Filters) => ({
             ...prev,
             price: e.target.value
           }))
